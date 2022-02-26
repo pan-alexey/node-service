@@ -18,7 +18,6 @@ async function bootstrap() {
     .setTitle('Api example')
     .setDescription('Nodejs service')
     .setVersion('v1')
-    .setBasePath('/')
     .build();
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('docs', app, document);
